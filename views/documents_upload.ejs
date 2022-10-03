@@ -1,0 +1,102 @@
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="/css/login.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar bg-dark">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item navbar-dark" role="presentation">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" role="tab" aria-controls="home" aria-selected="true">Home<a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile<a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact<a>
+                </li>
+              </ul> -->
+          <ul class="navbar-nav ml-auto">
+         
+            <li class="nav-item">
+              <a class="nav-link" href="http://localhost:8000">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="login-form">
+      <div class="cotainer">
+        <div class="row justify-content-center">
+          <div class="card col-md-12">
+            <div  class="card-header"><div><h3 class="d-flex justify-content-center">Please upload the documents</h3> 
+              
+            </div>
+            </div>
+                    <div class="card-body d-flex justify-content-start">
+          <div class="col-md-12"  id="dashboard_card">
+            <div class=" collapse card " aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-header d-flex justify-content-center">
+                <h2>Upload Documents</h2>
+              </div>
+              <br />
+
+              
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script type="text/javascript" src="/js/documents_upload.js" ></script>
+
+  <%- include('footer'); -%>
+</html>
